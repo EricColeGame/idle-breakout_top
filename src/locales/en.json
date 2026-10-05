@@ -42,22 +42,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Learn how to aim, buy your first balls, and set up an efficient early-game routine that keeps breaking bricks even while you idle."
+          "description": "Start with the basics: click bricks, buy your first ball, and build a steady early-game cash loop."
         },
         {
           "number": "2",
           "title": "Best Balls",
-          "description": "Compare Basic, Plasma, Sniper, Scatter, Cannon, and Poison balls to build a loadout that clears levels fast."
+          "description": "Compare Basic, Plasma, Sniper, Scatter, Cannon, and Poison balls to build a loadout that clears stages fast."
         },
         {
           "number": "3",
           "title": "Upgrade Priority",
-          "description": "Spend cash on power, speed, and ball count in the right order to snowball your damage without wasting money."
+          "description": "Learn which power, speed, and ball-count upgrades give the best return at every stage of the game."
         },
         {
           "number": "4",
           "title": "Prestige & Skills",
-          "description": "Reset for permanent bonuses, then invest skill points into the upgrades that matter most for late-game progression."
+          "description": "Reset for permanent Black Brick bonuses, then spend skill points on the upgrades that matter most."
         }
       ]
     },
@@ -81,25 +81,25 @@
           "badge": "Updated",
           "title": "Ball Guide",
           "description": "Every ball type explained with damage, cost, and the best situations to use it.",
-          "href": "/guide/idle-breakout-ball-guide"
+          "href": "/items/idle-breakout-all-balls"
         },
         {
           "badge": "Updated",
           "title": "Upgrade Guide",
           "description": "Power, speed, and ball-count upgrades ranked by value at every stage.",
-          "href": "/guide/idle-breakout-upgrade-guide"
+          "href": "/progression/idle-breakout-max-upgrades"
         },
         {
           "badge": "Popular",
           "title": "Prestige Guide",
           "description": "When to prestige and how to convert resets into permanent damage bonuses.",
-          "href": "/guide/idle-breakout-prestige-guide"
+          "href": "/progression/idle-breakout-prestige-guide"
         },
         {
           "badge": "New",
           "title": "Boss Levels",
           "description": "Strategies for tough boss bricks and the best ball setups to beat them.",
-          "href": "/guide/idle-breakout-boss-guide"
+          "href": "/mechanics/idle-breakout-bosses"
         },
         {
           "badge": "Popular",
@@ -111,27 +111,27 @@
           "badge": "New",
           "title": "Skills & Points",
           "description": "How to earn skill points and where to spend them for maximum value.",
-          "href": "/guide/idle-breakout-skills-guide"
+          "href": "/progression/idle-breakout-skill-points"
         },
         {
           "badge": "New",
           "title": "Offline Earnings",
           "description": "Make the most of offline cash and keep progressing while you are away.",
-          "href": "/guide/idle-breakout-offline-earnings"
+          "href": "/tips/idle-breakout-offline-cash-earnings"
         },
         {
           "badge": "Popular",
           "title": "Tips & Tricks",
           "description": "Quick, practical tips that speed up every stage of the game.",
-          "href": "/guide/idle-breakout-tips-and-tricks"
+          "href": "/guide/idle-breakout-tips"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Idle Breakout?",
       "paragraphs": [
-        "Idle Breakout is an incremental brick-breaking game where you buy and upgrade an arsenal of balls that automatically bounce around and smash bricks. Each destroyed brick pays out cash that you reinvest into more balls, higher damage, and faster fire rates.",
-        "Progress is endless: clear a level, collect your reward, and unlock tougher brick layouts with more health and new colors. Prestige resets let you trade progress for permanent bonuses, while skill points and special ball types open up entirely new strategies for late-game play."
+        "Idle Breakout is a browser-based incremental brick-breaker from developer Kodiqi. You buy and upgrade an arsenal of balls that bounce around an enclosed arena, automatically chipping away at numbered bricks while you idle. Cash from every destroyed brick is reinvested into more balls, higher damage, and faster fire rates.",
+        "Progression is endless: clear a stage, unlock tougher brick layouts with higher HP, and push toward boss levels that test your loadout. Prestige resets trade your current run for Black Bricks (BB), permanent upgrades that multiply every future run. Specialty balls like Plasma, Sniper, Scatter, Cannon, and Poison open up new clearing strategies as the numbers scale."
       ],
       "stats": [
         {
@@ -172,192 +172,212 @@
         {
           "order": 1,
           "name": "Idle Breakout Codes",
-          "description": "Check for working Idle Breakout codes and learn how to redeem save codes and rewards in the game settings.",
-          "href": "/guide/idle-breakout-codes",
-          "displayType": "code-box",
+          "description": "Learn how Idle Breakout save codes work, what each save profile contains, and how to import one without losing your progress.",
+          "href": "/codes/idle-breakout-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Status",
-              "detail": "No active codes currently available"
+              "label": "Save Import",
+              "detail": "Idle Breakout codes are encoded save strings, not promo vouchers"
             },
             {
-              "label": "Status",
-              "detail": "Check back soon for new codes"
+              "label": "Fresh Starter",
+              "detail": "Level 100-300 profiles skip the slow opening grind"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them exactly as written"
+              "label": "God Mode",
+              "detail": "Infinite sandbox saves unlock every ball and billions of BB"
+            },
+            {
+              "label": "Backup First",
+              "detail": "Export your current save before importing any external string"
             }
           ]
         },
         {
           "order": 2,
           "name": "Idle Breakout Beginner Guide",
-          "description": "A step-by-step introduction to breaking bricks, buying your first balls, and building a reliable early-game income.",
+          "description": "A step-by-step walkthrough of your first levels: buying balls, choosing upgrades, and setting up a passive income loop.",
           "href": "/guide/idle-breakout-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Click bricks and collect cash to buy your first ball"
+              "label": "1",
+              "detail": "Click bricks and bank cash to buy your first Basic Ball"
             },
             {
-              "label": "Step 2",
-              "detail": "Invest in damage and ball count to clear levels faster"
+              "label": "2",
+              "detail": "Upgrade ball speed and power before buying extra balls"
             },
             {
-              "label": "Step 3",
-              "detail": "Automate your setup so bricks keep breaking while you idle"
+              "label": "3",
+              "detail": "Shift your savings into Plasma Balls as soon as they unlock"
+            },
+            {
+              "label": "4",
+              "detail": "Add Sniper and Poison Balls once brick HP starts scaling up"
+            },
+            {
+              "label": "5",
+              "detail": "Prestige when clears slow down to trade the run for Black Bricks"
             }
           ]
         },
         {
           "order": 3,
           "name": "Idle Breakout Ball Guide",
-          "description": "Compare every ball type, its damage, cost, and the best situations to deploy it.",
-          "href": "/guide/idle-breakout-ball-guide",
+          "description": "Compare every Idle Breakout ball type, its combat role, and the stage where it pays off most.",
+          "href": "/items/idle-breakout-all-balls",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Basic",
-              "detail": "Cheap all-rounder for early levels"
+              "detail": "Cheap early DPS that scales poorly later"
             },
             {
               "label": "Plasma",
-              "detail": "High single-target damage for bosses"
+              "detail": "Splash AoE that shreds packed brick clusters"
             },
             {
               "label": "Sniper",
-              "detail": "Long-range precision against tough bricks"
+              "detail": "Huge single-target burst for high-HP bricks"
             },
             {
               "label": "Scatter",
-              "detail": "Spreads damage across clustered bricks"
+              "detail": "Splits into sub-projectiles to saturate the board"
             },
             {
               "label": "Cannon",
-              "detail": "Heavy burst damage at a slower rate"
+              "detail": "Heavy impact for reinforced and armored bricks"
             },
             {
               "label": "Poison",
-              "detail": "Damage over time against high-health bricks"
+              "detail": "Damage-over-time that melts boss health pools"
             }
           ]
         },
         {
           "order": 4,
           "name": "Idle Breakout Upgrade Guide",
-          "description": "Learn which power, speed, and ball-count upgrades give the best return at each stage of the game.",
-          "href": "/guide/idle-breakout-upgrade-guide",
+          "description": "See which Idle Breakout upgrades hit hard caps, which scale endlessly, and where to spend your cash first.",
+          "href": "/progression/idle-breakout-max-upgrades",
           "displayType": "tier-grid",
           "highlights": [
             {
               "label": "S",
-              "detail": "Ball count and damage — the core damage multipliers"
+              "detail": "Ball power and ball capacity - the core damage multipliers"
             },
             {
               "label": "A",
-              "detail": "Fire rate and ball speed — faster clears"
+              "detail": "Ball speed - more hits per second on every brick"
             },
             {
               "label": "B",
-              "detail": "Cash per brick and crit chance — steady scaling"
+              "detail": "Black Brick skills - permanent global scaling across runs"
             },
             {
               "label": "C",
-              "detail": "Cosmetic or low-impact upgrades — buy last"
+              "detail": "Click damage - useful early, falls off fast mid-game"
             }
           ]
         },
         {
           "order": 5,
           "name": "Idle Breakout Strategy Guide",
-          "description": "Practical strategies for spending cash, pacing upgrades, and pushing through difficult levels.",
+          "description": "Practical strategies for cash flow, upgrade pacing, and pushing through stubborn brick walls.",
           "href": "/guide/idle-breakout-strategy-guide",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Economy",
-              "detail": "Reinvest early and avoid hoarding cash"
+              "detail": "Reinvest cash instead of hoarding it in the bank"
             },
             {
               "label": "Pacing",
-              "detail": "Balance damage and speed upgrades"
+              "detail": "Balance damage, speed, and ball count as HP scales"
             },
             {
               "label": "Idle",
-              "detail": "Set up a loop that earns while you are away"
+              "detail": "Build a setup that keeps earning while you are away"
             },
             {
               "label": "Bosses",
-              "detail": "Switch to burst balls for high-health bricks"
+              "detail": "Swap in Sniper and Poison for high-HP boss bricks"
+            },
+            {
+              "label": "Prestige",
+              "detail": "Reset when clears slow to multiply future runs"
             }
           ]
         },
         {
           "order": 6,
           "name": "Idle Breakout Progression Guide",
-          "description": "Understand early, mid, and late-game goals and which unlocks to prioritize next.",
-          "href": "/guide/idle-breakout-progression-guide",
+          "description": "Map out early, mid, and late-game goals, from your first balls to fast Black Brick prestige loops.",
+          "href": "/progression/idle-breakout-prestige-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Early",
-              "detail": "Unlock core balls and upgrade damage"
+              "label": "1",
+              "detail": "Early game: unlock core balls and push your first upgrades"
             },
             {
-              "label": "Mid",
-              "detail": "Add special balls and increase ball count"
+              "label": "2",
+              "detail": "Mid game: add specialty balls and bank Black Bricks"
             },
             {
-              "label": "Late",
-              "detail": "Prestige for permanent bonuses and push skill points"
+              "label": "3",
+              "detail": "Late game: run fast prestige loops for permanent power"
             }
           ]
         },
         {
           "order": 7,
           "name": "Idle Breakout Tips and Tricks",
-          "description": "Quick, actionable tips that help you avoid wasted cash and progress faster.",
-          "href": "/guide/idle-breakout-tips-and-tricks",
+          "description": "Quick, community-tested Idle Breakout tips that save cash and speed up every stage.",
+          "href": "/guide/idle-breakout-tips",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Tip",
-              "detail": "Avoid over-saving; cash earns nothing in the bank"
+              "label": "Banking",
+              "detail": "Avoid over-saving; idle cash earns nothing"
             },
             {
-              "label": "Tip",
-              "detail": "Upgrade damage before buying extra balls too early"
+              "label": "Damage",
+              "detail": "Upgrade ball power before buying more balls"
             },
             {
-              "label": "Tip",
-              "detail": "Prestige once progress slows to a crawl"
+              "label": "Reset",
+              "detail": "Prestige when progress slows to a crawl"
             },
             {
-              "label": "Tip",
-              "detail": "Use burst balls for boss and high-health bricks"
+              "label": "Bosses",
+              "detail": "Use Poison and Sniper for milestone bricks"
             }
           ]
         },
         {
           "order": 8,
           "name": "Idle Breakout Game Guide",
-          "description": "A quick reference for platforms, controls, and core mechanics, with links into every specialist guide.",
-          "href": "/guide/idle-breakout-game-guide",
-          "displayType": "accordion",
+          "description": "A quick reference for platforms, controls, and the core loop, with links into every specialist Idle Breakout guide.",
+          "href": "/guide/idle-breakout-guide",
+          "displayType": "card-list",
           "highlights": [
             {
               "label": "Platform",
-              "detail": "Play Idle Breakout in your browser on Kongregate and Coolmath Games"
+              "detail": "Play free in your browser on Kongregate and Coolmath Games"
             },
             {
               "label": "Controls",
-              "detail": "Aim with the mouse and let your balls break bricks automatically"
+              "detail": "Aim with the mouse; balls break bricks automatically"
             },
             {
-              "label": "Core Loop",
-              "detail": "Earn cash, buy balls, upgrade stats, and clear tougher levels"
+              "label": "Loop",
+              "detail": "Earn cash, buy balls, upgrade, and clear tougher stages"
+            },
+            {
+              "label": "Bricks",
+              "detail": "Standard, gold, and black bricks each pay out differently"
             }
           ]
         }
@@ -369,23 +389,23 @@
       "items": [
         {
           "question": "What is Idle Breakout?",
-          "answer": "Idle Breakout is an incremental brick-breaking game where you buy and upgrade balls that automatically destroy bricks. Cash from destroyed bricks is reinvested into more balls, higher damage, and faster fire rates."
+          "answer": "Idle Breakout is a browser-based incremental brick-breaker from developer Kodiqi. You buy and upgrade balls that automatically destroy numbered bricks, then reinvest the cash into more damage, speed, and specialty ball types."
         },
         {
-          "question": "Which ball should beginners buy first?",
-          "answer": "Start with cheap Basic balls to build steady income, then add Plasma or Sniper balls once you need higher single-target damage for tougher bricks and bosses."
+          "question": "How do Idle Breakout codes work?",
+          "answer": "Idle Breakout codes are encoded save-state strings rather than promotional vouchers. Importing a shared string replaces your local save with another player's progress, so export a backup of your own save before trying one."
         },
         {
-          "question": "How do I progress faster?",
-          "answer": "Reinvest cash as soon as you can, prioritize damage and ball count upgrades, and prestige when progress slows to trade your run for permanent bonuses."
+          "question": "Which balls should beginners buy in Idle Breakout?",
+          "answer": "Start with Basic Balls to build early income, then move into Plasma Balls for splash damage. Add Sniper and Poison Balls once brick health scales up and boss bricks appear."
         },
         {
-          "question": "Does Idle Breakout have codes?",
-          "answer": "Idle Breakout has no confirmed active codes. This wiki tracks any official codes and save-code information as soon as they are available."
+          "question": "When should I prestige in Idle Breakout?",
+          "answer": "Prestige in Idle Breakout when your balls take too long to clear a stage. Resetting converts your run into Black Bricks (BB), which buy permanent upgrades that speed up every future run."
         },
         {
           "question": "Where can I play Idle Breakout?",
-          "answer": "Idle Breakout is a free browser game available on Kongregate and Coolmath Games, and it also runs on mobile browsers."
+          "answer": "Idle Breakout is a free browser game available on Kongregate and Coolmath Games, and it also runs in mobile browsers."
         }
       ]
     },
