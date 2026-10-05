@@ -8,7 +8,14 @@
   },
   "nav": {
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "progression": "Progression",
+    "codes": "Codes",
+    "tips": "Tips",
+    "platforms": "Platforms"
   },
   "home": {
     "meta": {
@@ -416,7 +423,34 @@
       "secondary": "Play on Kongregate"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Idle Breakout Guides",
+    "overviewDescription": "Step-by-step Idle Breakout guides covering beginner basics, winning strategies, and fast ways to break through the early levels."
+  },
+  "items": {
+    "overviewTitle": "Idle Breakout Balls & Items",
+    "overviewDescription": "Compare every Idle Breakout ball, tier list, and loadout so you can pick the best setup for farming cash or bursting down bosses."
+  },
+  "mechanics": {
+    "overviewTitle": "Idle Breakout Mechanics",
+    "overviewDescription": "Understand Idle Breakout boss fights, power-ups, achievements, and the core brick-breaking systems that drive your progress."
+  },
+  "progression": {
+    "overviewTitle": "Idle Breakout Progression",
+    "overviewDescription": "Learn when to prestige, how skill points and upgrades work, and how to push toward the highest level in Idle Breakout."
+  },
+  "codes": {
+    "overviewTitle": "Idle Breakout Codes",
+    "overviewDescription": "All active Idle Breakout codes in one place, plus how to redeem them for free cash and upgrades."
+  },
+  "tips": {
+    "overviewTitle": "Idle Breakout Tips & Strategy",
+    "overviewDescription": "Advanced Idle Breakout tips for the meta, late game, endgame, and offline cash earnings to speed up your idle progress."
+  },
+  "platforms": {
+    "overviewTitle": "Idle Breakout Platforms",
+    "overviewDescription": "Play Idle Breakout on mobile, Android, iOS, online, Poki, or Coolmath Games and learn what changes on each platform."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",

@@ -1,0 +1,194 @@
+export const metadata = {
+  title: "Le guide ultime d'Idle Breakout : Tier lists des balles, prestige et stratégies",
+  description: "Maîtrisez chaque niveau grâce à notre guide complet d'Idle Breakout. Découvrez la tier list des balles, le timing de prestige, les améliorations et les stratégies AFK.",
+  category: "guide",
+  date: "2026-10-05",
+};
+
+Détruire des murs infinis de briques numérotées est d'une efficacité redoutable pour vous rendre accro, mais franchir les paliers des niveaux les plus élevés exige une véritable planification stratégique plutôt que des clics désordonnés. Que vous soyez bloqué sur les premiers seuils clés ou déterminé à optimiser vos runs de prestige, ce guide complet d'Idle Breakout vous fournit les calculs, les classements de balles et les ordres d'amélioration nécessaires pour dominer le plateau. Maîtriser la boucle entre l'achat de projectiles rebondissants et l'investissement dans les multiplicateurs de prestige transforme une progression laborieuse en une machine de guerre capable de nettoyer l'écran en un clin d'œil. Suivez ce guide complet d'Idle Breakout pour maximiser la destruction de briques et concevoir la configuration automatisée ultime.
+
+Le jeu reprend les mécaniques fondamentales du classique des bornes d'arcade des années 1970, *Breakout*, pour les transformer en un jeu incrémental exponentiel. Au lieu de contrôler une simple raquette pour empêcher les balles de tomber en bas de l'écran, vous libérez une armada de sphères spécialisées au cœur d'une arène fermée. Chaque impact grignote les points de vie d'une brique jusqu'à son explosion, vous arrosant d'argent à réinvestir dans une artillerie toujours plus rapide, plus puissante et plus redoutable.
+
+## Mécaniques fondamentales et fonctionnement d'Idle Breakout
+
+À la base, votre mission consiste à détruire des rangées de briques numérotées, soit par des clics manuels, soit à l'aide de balles autonomes. Dans cette section de notre guide d'Idle Breakout, nous détaillons la boucle de gameplay fondamentale afin que vous puissiez faire des choix d'achat avisés dès le premier niveau.
+
+Chaque brique affiche un nombre correspondant à ses points de vie totaux (PV). Chaque rebond de balle ou chaque clic manuel réduit ce nombre de la valeur de votre puissance d'attaque actuelle. Lorsqu'une brique tombe à zéro PV, elle explose et vous octroie une récompense financière proportionnelle à sa résistance de départ.
+
+```
+[Clic / Impact de balle] ---> [Réduit les PV de la brique] ---> [Détruit la brique] ---> [Rapporte de l'or/points] ---> [Achète balles / Améliorations]
+```
+
+Au fur et à mesure que vous enchaînez les niveaux, la résistance des briques augmente de manière exponentielle. Compter uniquement sur le curseur de votre souris montre très vite ses limites à cause de la fatigue liée aux clics répétés. La véritable clé du succès réside dans la transformation de votre plateau de jeu en une salle de démolition 100 % automatisée.
+
+### Variétés de briques et caractéristiques
+
+Comprendre les différents types de briques qui apparaissent vous permet de déterminer quelles améliorations de balles prioriser. Toutes les briques ne se comportent pas de la même manière, et les niveaux avancés introduisent des variantes inédites capables de résister aux attaques conventionnelles.
+
+| Type de brique | Apparence | Résistance | Rendement en ressources | Contre stratégique |
+| :--- | :--- | :--- | :--- | :--- |
+| **Brique standard** | Couleurs pastel unies | Faible à modérée | Or standard | N'importe quelle configuration de balles rapides |
+| **Brique renforcée** | Teintes plus sombres, bordures épaisses | Modérée à élevée | Or supérieur à la moyenne | Balle Canon et Balle Sniper |
+| **Brique dorée** | Jaune brillant / doré | Très élevée | Gain d'or massif | Balles à fort burst sur cible unique |
+| **Brique noire (BB)** | Noir profond avec éclat distinctif | Extrêmement élevée | Devise de prestige (BB) | Dégâts sur la durée (DoT) Poison + focus Sniper |
+| **Brique Boss bouclier**| Bloc massif s'étendant sur les niveaux | PV monumentaux | Or massif et déblocages d'atouts | Cumul de poison et vitesse d'attaque maximale |
+
+Les briques standard composent l'essentiel des premiers paliers, fournissant le flux régulier de liquidités nécessaire pour monter votre premier arsenal. Les briques noires, en revanche, font leur apparition à intervalles réguliers et constituent la pierre angulaire de votre méta-progression. Briser ces blocs d'obsidienne ultra-denses requiert des synergies de balles spécialisées, les dégâts cinétiques classiques ne faisant que les égratigner aux stades avancés.
+
+---
+
+## Tier list complète des balles et priorités d'amélioration
+
+Aucun guide d'Idle Breakout ne serait complet sans une analyse approfondie des différentes catégories de balles. Chaque unité du jeu se distingue par sa trajectoire, son profil de dégâts et ses effets secondaires. Équilibrer judicieusement vos troupes évite de vous retrouver bloqué face à des murs blindés.
+
+```
++--------------------------------------------------------------+
+|                   VUE D'ENSEMBLE DE L'ARSENAL                |
+|                                                              |
+|  [Standard]   -> Base fiable et essentielle en début de jeu  |
+|  [Plasma]     -> Dégâts de zone explosifs (AoE)              |
+|  [Sniper]     -> Exécution ciblée des cibles ultra-résistantes|
+|  [Dispersion] -> Frappes multiples à très haute fréquence   |
+|  [Canon]      -> Force brute pour briser les armures         |
+|  [Poison]     -> Dégâts sur la durée à scaling exponentiel   |
++--------------------------------------------------------------+
+```
+
+### Classement détaillé des balles
+
+Pour vous aider à investir vos pièces d'or au bon endroit, voici un comparatif complet des performances de chaque balle aux différentes étapes d'une partie :
+
+| Nom de la balle | Mécanique principale | Point fort majeur | Point faible majeur | Rang Tier |
+| :--- | :--- | :--- | :--- | :--- |
+| **Balle Poison** | Applique un DoT cumulable par contact | Détruit sans effort les blocs aux PV gigantesques | Burst initial faible sur les petites briques | **Tier S** |
+| **Balle Plasma** | Libère des dégâts de zone à chaque impact | Nettoie les grappes de briques compactes | Dégâts réduits sur cible unique / boss | **Tier S** |
+| **Balle Sniper** | Cible la brique ayant le plus de PV | Élimine les cibles prioritaires sur tout le terrain | Cadence lente et coût d'achat élevé | **Tier A** |
+| **Balle Dispersion**| Se divise ou déclenche des micro-touches | Fréquence d'impacts hors pair pour les procs | Inefficace face aux cibles très fortifiées | **Tier B** |
+| **Balle Canon** | Lourd impact cinétique avec vitesse lente | Démolit les briques à armure moyenne/haute | Sa lenteur réduit le nombre total de touches | **Tier B** |
+| **Balle Standard** | Rebond physique linéaire classique | Base de départ très économique | Décrochage sévère passé le niveau 100 | **Tier C** |
+
+### Analyse des meilleures unités
+
+**1. Balle Poison (Tier S)**
+Les retours de la communauté placent sans conteste la Balle Poison au sommet absolu de la progression en fin de partie. Contrairement aux attaques cinétiques infligeant des dégâts bruts fixes, le poison applique un statut de dégâts continus sur la durée. À mesure que les charges de poison s'accumulent sur les briques noires compactes ou les boss, ces tiques contournent le scaling d'armure conventionnel, rendant cette balle incontournable pour aller loin.
+
+**2. Balle Plasma (Tier S)**
+La Balle Plasma est votre moteur principal pour raser des vagues entières. Dès qu'elle heurte une cible, elle déclenche une déflagration localisée qui pulvérise les briques adjacentes. Durant le début et le milieu de partie, où des centaines de briques à faible résistance saturent l'écran, quelques Balles Plasma bien placées balaient l'ensemble du plateau en quelques secondes.
+
+**3. Balle Sniper (Tier A)**
+Plutôt que de s'en remettre à des rebonds imprévisibles contre les parois, la Balle Sniper traque méthodiquement la brique disposant du plus grand nombre de points de vie. Fini la frustration de voir une unique brique à 100 000 PV bloquer tout votre tableau pendant que vos sphères rebondissent bêtement dans des coins déserts.
+
+### Parcours d'investissement par phase de jeu
+
+Bien répartir son or impose de trouver le bon équilibre entre la vitesse des projectiles, leur force brute et la limite maximale de balles sur le terrain. Acheter au hasard ruinera votre économie dès que les prix s'envoleront. Vous pouvez tester la version en ligne sur des portails populaires comme [Coolmath Games](https://www.coolmathgames.com/0-idle-breakout) afin d'expérimenter ces différents tempos d'amélioration en direct.
+
+| Phase de progression | Niveaux | Balle prioritaire | Statistique à privilégier | Objectif stratégique |
+| :--- | :--- | :--- | :--- | :--- |
+| **Début de partie** | Niveaux 1 à 100 | Standard & Plasma | Vitesse de balle & Dégâts de base | Nettoyage express et constitution du capital |
+| **Milieu de partie** | Niveaux 101 à 500 | Plasma, Sniper, Dispersion | Emplacements max & Rayon d'explosion | Automatisation du nettoyage des écrans denses |
+| **Fin de partie** | Niveaux 501 à 2 000+| Poison & Sniper | Cumul de poison & Vitesse des cibles | Éradication des Briques Noires et des boss |
+| **Boucle endgame**| Niveaux 2 000+ | Full Poison / Synergies | Multiplicateurs de prestige & Prestige BB | Scaling infini pour monter au classement |
+
+---
+
+## Maîtriser le système de Prestige pour un scaling infini
+
+Le prestige est le cœur battant des jeux incrémentaux, et ce guide d'Idle Breakout insiste sur ce point : réinitialiser sa partie est une étape indispensable pour franchir les paliers de blocage.
+
+Lorsque vous activez le prestige, vous abandonnez votre progression de niveau actuelle, vos améliorations de balles et vos réserves d'or. En contrepartie, vous obtenez une monnaie de prestige permanente calculée sur le total de Briques Noires détruites et les paliers validés au cours de cette run.
+
+```
+[Partie normale] ---> [Détruire Briques Noires] ---> [Blocage] ---> [Prestige] ---> [Dépenser points de talent] ---> [Partie suivante plus rapide]
+```
+
+### Quand déclencher le prestige ?
+
+Comme nous l'indiquons dans ce guide d'Idle Breakout, savoir identifier le moment opportun pour votre tout premier prestige vous évitera de gaspiller de longues heures d'attente passive. Déclencher un prestige trop tôt ne vous rapportera pas assez de points pour acheter des atouts significatifs. À l'inverse, tarder démesurément fera stagner vos rentrées d'or face à des briques aux PV démesurés.
+
+* **Seuil du premier prestige :** Lancez votre premier prestige dès que vous avez détruit suffisamment de Briques Noires pour financer au moins deux ou trois améliorations majeures. Pour la majorité des joueurs, ce moment survient entre les niveaux 150 et 250.
+* **Prestiges suivants :** Réinitialisez dès que le temps requis pour franchir un niveau triple. Si terminer un unique tableau vous prend plus de temps que les 50 précédents réunis, encaissez vos points sans hésiter.
+
+### Répartition de l'arbre de talents de prestige
+
+Les points de prestige débloquent des bonus passifs qui restent acquis lors de toutes vos sessions futures. Les attribuer avec discernement évite de nouveaux goulets d'étranglement lors de vos runs ultérieures.
+
+| Catégorie d'amélioration | Rôle | Priorité | Investissement initial recommandé |
+| :--- | :--- | :--- | :--- |
+| **Multiplicateur de valeur BB** | Augmente les points de prestige par Brique Noire | Absolue (Essentiel) | 35 % des points totaux |
+| **Vitesse globale des balles** | Accélère la vélocité de toutes les balles du jeu | Élevée | 25 % des points totaux |
+| **Multiplicateur de dégâts de base**| Ajoute un bonus en pourcentage aux impacts de balle | Élevée | 20 % des points totaux |
+| **Bonus de puissance de clic** | Décuple la force des frappes manuelles du curseur | Moyenne | 10 % des points totaux |
+| **Capital de départ** | Octroie une somme d'or immédiate après le prestige | Confort de jeu | 10 % des points totaux |
+
+Concentrer vos premiers gains de prestige sur le Multiplicateur de valeur BB génère un effet boule de neige financier. Chaque réinitialisation vous récompensera bien plus que la précédente, vous permettant de revenir à votre niveau record en une fraction du temps initial.
+
+---
+
+## Builds optimaux : Clic actif contre jeu 100 % passif (AFK)
+
+Selon vos disponibilités et votre temps d'écran, vous pouvez opter pour un style de jeu dynamique au clic ou pour une automatisation totale sans intervention manuelle. Les deux approches sont parfaitement viables, mais reposent sur des choix d'améliorations bien distincts.
+
+| Dimension de jeu | Configuration active "Clicker" | Configuration purement "AFK Idle" |
+| :--- | :--- | :--- |
+| **Source principale de dégâts**| Clics de souris + focus Balle Sniper | Armée de Balles Poison + Balles Plasma |
+| **Attention requise** | Élevée (interaction visuelle continue) | Faible (onglet laissé en arrière-plan) |
+| **Vitesse en début de run** | Dépassement éclair des niveaux | Rythme constant et automatique |
+| **Capacité à tomber les boss** | Modérée (liée aux améliorations de clic) | Exceptionnelle (liée aux tiques de Poison) |
+| **Arbre de talents idéal** | Multiplicateurs de clic & Chances de critique| Vitesse, emplacements de balles & Or passif |
+
+### La stratégie de clic actif
+
+Le build actif repose sur les interventions directes du joueur pour abattre les briques les plus coriaces, pendant que les balles nettoient le gros des troupes en tâche de fond.
+
+1. Maximisez la puissance d'attaque du clic dès les premières options de la boutique.
+2. Combinez vos clics manuels avec des projectiles monocibles percutants comme la Balle Sniper.
+3. Cliquez en priorité sur les cibles à forte valeur (Briques Dorées et Noires) tout en ignorant les blocs secondaires.
+4. Adoptez cette approche principalement pendant les 30 premières minutes suivant un prestige afin de traverser les premiers paliers à toute allure.
+
+### La stratégie AFK 100 % automatique
+
+Pour ceux qui préfèrent laisser tourner le jeu en fond dans une fenêtre de navigation secondaire, la stratégie AFK mise sur une couverture totale de l'arène et les dégâts continus sur la durée.
+
+1. Débloquez le maximum d'emplacements de balles dès que vos réserves d'or le permettent.
+2. Remplissez l'écran avec un ratio de 2 Balles Poison pour 1 Balle Plasma.
+3. Dépensez votre monnaie de prestige dans la vélocité globale des projectiles pour qu'ils ricochent sans arrêt sans avoir besoin de la souris.
+4. Laissez les débuffs passifs de poison faire fondre les briques ultra-résistantes pendant que les explosions Plasma balaient les débris adjacents.
+
+---
+
+## Astuces avancées et mécaniques secrètes
+
+D'après les retours de vétérans et les analyses partagées au sein de notre communauté Idle Breakout, de petites optimisations tactiques permettent de raccourcir drastiquement le chemin vers les paliers de fin de jeu.
+
+```
+CYCLE OPTIMAL DE NETTOYAGE :
+[Balayage Plasma rapide] -> [Cumul Poison sur blocs lourds] -> [Finition Sniper sur traînards] -> [Transition immédiate]
+```
+
+### 1. La synergie du cumul de poison
+Les dégâts de poison ne se contentent pas d'infliger un montant fixe : plusieurs Balles Poison frappant une même brique réinitialisent et démultiplient le compteur de dégâts. En combinant de fortes améliorations de vitesse avec plusieurs unités de Poison, une brique affichant des milliards de PV s'évapore en une poignée de secondes, car la cadence des tiques s'accélère bien plus vite que ne le permettraient de simples impacts cinétiques.
+
+### 2. Physique des rebonds sur les bordures
+Les balles adoptent des angles de trajectoire directement influencés par le point de contact avec les parois. Les projectiles coincés dans des trajectoires horizontales infinies entre les murs latéraux gaspillent un temps précieux. Préservez le dynamisme du plateau en conservant un panachage de balles aux vitesses variées : leurs collisions croisées renverront sans cesse les sphères égarées vers les blocs denses.
+
+### 3. Gestion de vos codes de sauvegarde
+Idle Breakout sauvegarde votre progression dans le cache local ou le stockage de votre navigateur. Effacer vos cookies ou vider votre cache supprimera irrémédiablement l'ensemble de votre historique.
+* Ouvrez régulièrement le menu des paramètres du jeu.
+* Cliquez sur le bouton d'exportation pour copier la chaîne de caractères de votre sauvegarde.
+* Collez et conservez ce code textuel dans un fichier externe sécurisé pour parer à toute perte accidentelle de données.
+
+---
+
+## Foire aux questions (FAQ)
+
+### Quel est le moyen le plus rapide de progresser selon ce guide d'Idle Breakout ?
+La méthode la plus performante consiste à bâtir une économie rapide au début avec des Balles Standard et Plasma, puis à basculer vers les Balles Poison et Sniper dès que les PV des briques dépassent l'efficacité de vos dégâts cinétiques. Effectuez votre premier prestige entre les niveaux 150 et 250 afin d'acquérir des bonus permanents de vitesse et de valeur BB, ce qui propulsera la cadence de vos futures parties.
+
+### Pourquoi mes balles ne font-elles quasiment aucun dégât aux Briques Noires ?
+Les Briques Noires disposent d'un volume de PV colossal spécifiquement conçu pour stopper net les joueurs qui se reposent uniquement sur les Balles Standard ou Canon. Pour les pulvériser efficacement, déployez des Balles Poison appliquant des dégâts continus basés sur un pourcentage, complétées par des Balles Sniper configurées pour traquer la brique la plus résistante du terrain.
+
+### À quelle fréquence doit-on faire un prestige dans Idle Breakout ?
+Vous devez lancer un prestige dès que votre cadence de franchissement de niveau s'effondre et que terminer un seul écran prend notablement plus de temps que votre moyenne habituelle. Dès l'instant où une réinitialisation vous permet de doubler ou tripler votre stock de points de prestige, l'opération sera bien plus rentable que de vous acharner sur des tableaux coriaces avec des balles sous-développées.
+
+### Le clic manuel est-il plus rentable que l'achat de balles ?
+Le clic manuel fournit une puissance de frappe instantanée redoutable durant les 50 à 100 premiers niveaux après une réinitialisation, ce qui le rend parfait pour lancer une run. En revanche, son efficacité s'essouffle rapidement face aux PV astronomiques rencontrés en milieu et fin de partie. Réorienter vos gains vers une armée de balles autonomes est indispensable pour atteindre les plus hauts sommets.

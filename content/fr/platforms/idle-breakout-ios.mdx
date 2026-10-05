@@ -1,0 +1,148 @@
+export const metadata = {
+  title: "Guide Idle Breakout iOS : Comment jouer et optimiser sur iPhone et iPad",
+  description: "Apprenez à jouer à Idle Breakout sur les appareils iOS. Découvrez la configuration PWA Safari, les stratégies d'amélioration des balles et les astuces de performance.",
+  category: "platforms",
+  date: "2026-10-05",
+}
+
+Casser des briques n'a jamais été aussi satisfaisant que de regarder des centaines de balles automatisées détruire des blocs renforcés pendant que vous vous détendez. Si vous souhaitez profiter de l'expérience authentique d'**idle breakout ios** sur votre appareil Apple, vous n'avez pas besoin de vous contenter de copies médiocres ou d'émulateurs lourds. Maîtriser **idle breakout ios** nécessite de comprendre comment le moteur de navigation interagit avec les commandes tactiles modernes, comment configurer les sauvegardes sur le stockage local et comment optimiser le rendu des particules complexes sur les écrans mobiles.
+
+Que vous lanciez votre première balle standard ou que vous farmiez des millions de briques d'or grâce au prestige sur un iPad Pro, ce guide complet couvre la configuration, la progression des balles, la préservation des fichiers de sauvegarde et les optimisations de performances.
+
+---
+
+## Jouer à Idle Breakout sur iOS : Application native vs application web Safari
+
+Le jeu original *Idle Breakout* créé par Kodiqi a connu un succès viral massif en tant que jeu incrémental sur navigateur. En raison de l'écosystème strict de l'App Store d'Apple et des exigences de WebKit, de nombreux joueurs effectuent des recherches sur l'App Store pour ne trouver que des clones truffés d'une monétisation intrusive. 
+
+Pour profiter du jeu complet et authentique sans barrières de paiement tierces, le standard recommandé par la communauté consiste à lancer le jeu directement via Safari mobile en tant que Progressive Web App (PWA), par exemple via des plateformes comme le [portail Idle Breakout de Coolmath Games](https://www.coolmathgames.com/0-idle-breakout). Jouer de cette manière préserve l'équilibrage d'origine, garantit la compatibilité totale des chaînes de sauvegarde et vous permet de transférer facilement vos codes comme dans le cloud.
+
+| Fonctionnalité | Moteur web officiel (Safari / PWA) | Clones tiers de l'App Store |
+| :--- | :--- | :--- |
+| **Équilibrage et mécaniques d'origine** | Codebase Kodiqi 100 % authentique | Souvent modifiés pour inciter aux microtransactions |
+| **Compatibilité des codes de sauvegarde** | Prise en charge complète Import/Export entre PC et mobile | Rarement compatibles avec les codes de sauvegarde PC |
+| **Intrusivité des publicités** | Bannières/interstitiels standards (ou sans pub avec abonnement) | Pop-ups agressives, jauges d'énergie, pay-to-progress |
+| **Intégrité des mises à jour** | Correspondance exacte avec les versions sur navigateur | Codebases abandonnées ou sans suivi |
+| **Empreinte système** | Zéro stockage App Store ; mis en cache dans Safari | Consomme entre 80 Mo et 250 Mo d'espace sur l'appareil |
+
+Les retours de la communauté confirment que jouer via Safari offre la simulation physique la plus fluide, à condition que votre appareil soit configuré pour conserver le cache du navigateur et les clés de stockage local entre les sessions.
+
+---
+
+## Comment installer Idle Breakout iOS en tant qu'application plein écran sur l'écran d'accueil
+
+Jouer au jeu dans la fenêtre standard de Safari implique de composer avec la barre d'adresse URL et les onglets de navigation inférieurs, qui réduisent l'espace vertical disponible à l'écran. Heureusement, iOS intègre une fonctionnalité qui transforme les applications web en expériences autonomes et sans bordure, accessibles directement depuis votre écran d'accueil.
+
+Suivre cette configuration simple vous attribue une icône dédiée, supprime les barres de navigation du navigateur et évite le défilement accidentel de la page lorsque vous tapotez rapidement sur les briques cibles.
+
+| Étape | Action | Emplacement dans l'interface iOS | Pourquoi c'est important |
+| :--- | :--- | :--- | :--- |
+| **Étape 1** | Ouvrir Safari | Écran d'accueil iOS / Bibliothèque d'apps | Les navigateurs tiers (Chrome/Firefox sur iOS) ne gèrent pas l'ancrage PWA sur l'écran d'accueil |
+| **Étape 2** | Accéder au jeu | Barre d'adresse Safari | Charger la page hôte propre et accessible |
+| **Étape 3** | Ouvrir la feuille de partage | Appuyer sur l'icône Partager (carré avec flèche vers le haut) | Ouvre les options natives d'extension web d'iOS |
+| **Étape 4** | Sélectionner « Sur l'écran d'accueil » | Faire défiler vers le bas jusqu'à la liste d'actions | Convertit le manifeste de la page web en un conteneur semblable à une application |
+| **Étape 5** | Nommer votre raccourci | Taper « Idle Breakout » et appuyer sur **Ajouter** | Crée une icône sur l'écran d'accueil de votre appareil |
+
+Une fois configuré, le lancement d'**idle breakout ios** depuis votre écran d'accueil démarre le jeu en mode plein écran. Cette installation évite les actualisations accidentelles de la page lors des phases de tapotement intense et offre à vos balles un espace de déplacement vertical maximal.
+
+---
+
+## Types de balles et classement de progression pour les écrans tactiles iOS
+
+Progresser efficacement à travers des milliers de niveaux de briques exige de comprendre l'utilité propre à chaque type de balle. Sur les écrans tactiles mobiles, les clics manuels en tout début de partie sont rapides et réactifs, mais les configurations cinétiques automatisées prennent rapidement le dessus en milieu de partie. 
+
+Lors du déploiement des balles sur un iPhone ou un iPad, privilégier celles offrant une couverture automatique étendue garantit une progression continue, même lorsque votre téléphone reste posé sur votre bureau ou sur sa station de charge.
+
+| Type de balle | Coût de base | Style de dégâts | Note d'utilité mobile | Rôle principal dans la progression |
+| :--- | :--- | :--- | :--- | :--- |
+| **Basic Ball (Balle standard)** | Le plus bas | Cible unique, linéaire | C (Début de partie uniquement) | Élan de départ ; à remplacer rapidement après le niveau 50 |
+| **Plasma Ball (Balle plasma)** | Modéré | Dégâts de zone (AoE) | A (Grande valeur) | Affaiblit les groupes de briques blindées sur l'ensemble du plateau |
+| **Sniper Ball (Balle sniper)** | Élevé | Cinétique élevée sur cible unique | A+ (Tueuse de boss / briques lourdes) | Élimine rapidement les briques d'or et noires à haute résistance |
+| **Scatter Ball (Balle à dispersion)** | Élevé | Cinétique à division multiple | B+ (Nettoyeuse de masse) | Nettoie les débris à faible santé ; crée beaucoup d'action à l'écran |
+| **Cannon Ball (Balle de canon)** | Très élevé | Impact lourd, faible vélocité | B (Spécialisée) | Fraye des passages en ligne droite à travers les obstacles empilés |
+| **Poison Ball (Balle de poison)** | Premium | Dégâts sur la durée (DoT) | S (Rang supérieur) | Applique des DoT évolutifs qui restent redoutables dans les niveaux avancés |
+
+### Synergies de balles et priorités d'amélioration
+
+1. **La base Poison & Plasma** : Les balles de poison appliquent des dégâts cumulatifs sur la durée à chaque brique qu'elles touchent. Associer les balles de poison aux balles plasma permet à des groupes entiers d'absorber des dégâts simultanément.
+2. **Précision du Sniper** : Le tapotement tactile devenant inefficace au-delà du niveau 200, maximisez la vitesse et la puissance de la balle sniper. Les snipers ciblent automatiquement les briques avec le plus de points de vie à l'écran, évitant ainsi les blocages du plateau.
+3. **Équilibrage de la dispersion (Scatter)** : Bien que les balles Scatter soient spectaculaires à regarder, remplir l'écran d'un iPhone plus ancien de centaines de projectiles divisés peut parfois provoquer des chutes de framerate. Équilibrez le nombre de vos balles Scatter avec des balles Plasma et Poison, moins nombreuses mais plus dévastatrices.
+
+---
+
+## Gestion des fichiers de sauvegarde et sauvegarde dans le cloud sur les appareils iOS
+
+Un piège récurrent en jouant à **idle breakout ios** via Safari mobile est la perte inattendue de données. Si votre iPhone manque d'espace de stockage interne, iOS peut purger automatiquement le cache de Safari et les données de sites web, effaçant au passage votre précieuse progression de prestige. 
+
+Pour protéger votre partie, utilisez régulièrement le moteur intégré d'importation/exportation de chaînes de texte du jeu. Copier votre code de sauvegarde encodé dans votre application Apple Notes constitue une excellente assurance contre les purges accidentelles de cache.
+
+```text
+Structure typique d'une chaîne d'exportation :
+MzQ1Nnw5MjM4fDExMDB8... (Séquence alphanumérique en Base64)
+```
+
+| Problème rencontré | Cause probable sur iOS | Solution recommandée |
+| :--- | :--- | :--- |
+| **Progression réinitialisée au rechargement** | Navigation privée Safari activée | Désactiver la navigation privée ; le stockage local requiert le mode normal |
+| **Sauvegarde supprimée du jour au lendemain** | Fonction iOS de déchargement des données ou purge de stockage | Conserver chaque semaine des sauvegardes manuelles dans l'application Apple Notes |
+| **Impossible de coller le code de sauvegarde** | Demande d'autorisation du presse-papiers iOS ignorée | Maintenir appuyé sur la zone d'importation, choisir **Coller**, puis autoriser l'accès |
+| **Échec du chargement de la chaîne par le jeu** | Chaîne tronquée lors de la copie depuis Notes | Veiller à faire « Tout sélectionner » afin de ne manquer aucun caractère final |
+
+### Comment transférer en toute sécurité une sauvegarde PC vers iOS
+
+1. Sur votre ordinateur, rendez-vous sur l'icône d'engrenage (Paramètres ou Options) dans *Idle Breakout*.
+2. Cliquez sur **Export**, ce qui copie votre chaîne de sauvegarde en base64 dans votre presse-papiers.
+3. Collez la chaîne dans Apple Notes ou envoyez-la sur votre appareil via AirDrop ou Messages.
+4. Sur votre iPhone ou iPad, copiez l'intégralité de la chaîne.
+5. Lancez votre raccourci **idle breakout ios** sur l'écran d'accueil, ouvrez le menu des paramètres, appuyez sur **Import**, collez le code et confirmez.
+
+---
+
+## Optimiser l'autonomie de la batterie et les performances thermiques sur iOS
+
+Bien qu'*Idle Breakout* paraisse visuellement épuré, le rendu de centaines d'entités rebondissantes, les effets de particules et les nombres flottants de dégâts sollicitent réellement le GPU mobile. Au cours de longues sessions passives, votre appareil peut chauffer et ralentir son processeur via le bridage thermique (thermal throttling), diminuant la vitesse de calcul du jeu.
+
+Appliquer ces bonnes pratiques de performance préservera l'autonomie de votre batterie et maintiendra une physique fluide, même au-delà du niveau 2 000.
+
+| Paramètre de performance | Paramètre par défaut | Recommandé sur mobile | Impact sur la batterie et la température |
+| :--- | :--- | :--- | :--- |
+| **Nombres flottants (Floating Numbers)** | Activé | **Désactivé** | Économise jusqu'à 30 % de charge GPU lors des collisions massives de balles |
+| **Verrouillage auto de l'écran** | 30 secondes | 5 minutes / Jamais (sur secteur) | Permet la collecte passive sans que l'appareil ne se mette en veille |
+| **Mode économie d'énergie iOS** | Désactivé | **Désactivé en jeu actif** | Ce mode bride le taux de rafraîchissement WebKit à 30 Hz, ralentissant les calculs de balles |
+| **Luminosité de l'écran** | Auto / Élevée | 25 % – 40 % manuelle | Réduit l'accumulation de chaleur lors des longues phases de farm passif |
+| **Zoom de l'affichage / Texte** | Standard | Standard | Évite le décalage des zones tactiles et les débordements d'interface sur petits iPhones |
+
+Si vous prévoyez de faire tourner **idle breakout ios** toute la nuit pour amasser des millions de briques d'or, branchez toujours votre appareil à un chargeur certifié, réduisez la luminosité au minimum nécessaire et désactivez les nombres flottants de dégâts dans le menu des options.
+
+---
+
+## Stratégie de prestige de fin de jeu : maximiser les points de rupture sur mobile
+
+La mécanique de prestige (souvent appelée « Breaking ») réinitialise votre plateau en échange de devises d'amélioration telles que l'or et les points de compétence. Déterminer le bon moment pour déclencher une réinitialisation de prestige fait toute la différence entre une progression lente et une ascension fulgurante.
+
+L'expérience des joueurs et le consensus communautaire recommandent d'effectuer votre premier prestige dès que la progression commence à ralentir nettement, aux alentours des niveaux 200 à 250.
+
+| Cycle de prestige | Niveau cible | Axe d'investissement recommandé | Étape clé principale |
+| :--- | :--- | :--- | :--- |
+| **Premier Break** | Niveau 200 – 250 | Vitesse de base des balles et multiplicateur de dégâts par clic | Débloquer les premiers nœuds d'automatisation de l'arbre de compétences |
+| **Deuxième Break** | Niveau 500 – 600 | Durée de la balle de poison et rayon de projection du plasma | Nettoyage rapide du plateau sans tapotement manuel |
+| **Troisième Break** | Niveau 1 000+ | Taux de coup critique du sniper et scaling des drops d'or | Progression rapide pour débloquer les améliorations de fin de partie |
+| **Runs profondes** | Niveau 2 500+ | Extensions de la limite de balles et multiplicateurs passifs | Runs à progression infinie et hauts faits de haut niveau |
+
+Lorsque vous effectuez des prestiges sur **idle breakout ios**, investissez sans attendre vos points dans la vitesse passive des balles et les compétences d'apparition automatique plutôt que dans les dégâts par tapotement. Le jeu sur mobile prend toute sa dimension lorsque votre configuration travaille pour vous pendant que le téléphone reste dans votre poche.
+
+---
+
+## Foire aux questions (FAQ)
+
+### Puis-je jouer à Idle Breakout sur iOS entièrement hors ligne ?
+Oui. Si vous configurez le jeu via Safari et conservez l'onglet en cache ou si vous l'installez sur votre écran d'accueil en tant que PWA, le moteur JavaScript local fonctionnera sans connexion Internet active. Veillez toutefois à le lancer au moins une fois en étant connecté afin que tous les scripts du jeu et les éléments graphiques soient téléchargés dans le cache local du navigateur.
+
+### Existe-t-il une application officielle Idle Breakout iOS sur l'App Store ?
+Il n'existe actuellement aucune application officielle native autonome sur l'App Store développée par le créateur original Kodiqi. La plupart des applications portant ce nom sur l'App Store sont des clones tiers. Pour profiter de l'expérience classique d'origine, les joueurs doivent utiliser la version web via Safari et l'installer sur leur écran d'accueil.
+
+### Pourquoi ma sauvegarde d'Idle Breakout iOS a-t-elle disparu après quelques jours ?
+Safari vide automatiquement les données de stockage local des sites web si l'espace de stockage de votre iPhone devient critique ou si vous avez joué dans un onglet de navigation privée. Pour conserver vos sauvegardes de façon permanente, pensez à toujours exporter votre code de sauvegarde dans l'application Apple Notes avant de fermer votre session.
+
+### Comment coller un code de sauvegarde dans Idle Breakout sur iPhone ?
+Maintenez votre doigt appuyé directement dans le champ de saisie « Import » situé dans le menu des paramètres du jeu jusqu'à ce que le menu contextuel natif d'iOS apparaisse, puis sélectionnez **Coller**. Si iOS affiche une invite vous demandant l'autorisation de coller le contenu depuis une autre application, touchez **Autoriser le collage** pour confirmer l'importation.

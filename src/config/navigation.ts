@@ -1,9 +1,17 @@
 export type NavItem = {
   key: string;
-  path: string;
+  path: `/${string}`;
   isContentType: boolean;
 };
 
-export const NAVIGATION_CONFIG: readonly NavItem[] = [];
+export const NAVIGATION_CONFIG = [
+  { key: "guide", path: "/guide", isContentType: true },
+  { key: "items", path: "/items", isContentType: true },
+  { key: "mechanics", path: "/mechanics", isContentType: true },
+  { key: "progression", path: "/progression", isContentType: true },
+  { key: "codes", path: "/codes", isContentType: true },
+  { key: "tips", path: "/tips", isContentType: true },
+  { key: "platforms", path: "/platforms", isContentType: true },
+] satisfies readonly NavItem[];
 
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map((item) => item.path.replace(/^\//, ""));
