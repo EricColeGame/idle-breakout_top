@@ -29,6 +29,6 @@ export const siteConfig: SiteConfig = {
   gameUrl: "https://www.kongregate.com/en/games/kodiqi/idle-breakout",
   heroVideoId: "lnvTYJUlluY", // Idle Breakout strategy & gameplay showcase
   social: {},
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "fr"],
   defaultLocale: "en",
 };
