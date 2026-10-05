@@ -7,22 +7,8 @@
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
-    "races": "Races",
-    "bosses": "Bosses",
-    "guides": "Guides",
-    "codes": "Codes",
-    "tierList": "Tier List",
-    "maps": "Maps",
-    "skills": "Skills",
-    "updates": "Updates",
-    "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme",
-    "guide": "Guides",
-    "seafood": "Seafood & Recipes",
-    "upgrades": "Upgrades",
-    "gamepasses": "Gamepasses",
-    "community": "Community"
+    "toggleTheme": "Toggle theme"
   },
   "home": {
     "meta": {
@@ -410,19 +396,7 @@
       "secondary": "Play on Kongregate"
     }
   },
-  "bosses": {
-    "meta": {
-      "title": "Bosses — Complete Guide & Walkthrough | Idle Breakout Wiki",
-      "description": "Complete boss guides for Idle Breakout — strategies, ball setups, and tips for beating tough boss bricks and high-health levels."
-    },
-    "overviewTitle": "Bosses Overview",
-    "overviewDescription": "Strategies for every boss brick in Idle Breakout, including the best ball loadouts and upgrade priorities for high-health levels.",
-    "body": "Boss bricks in Idle Breakout have far more health than regular bricks and require a focused damage setup. The guides below cover which balls to use, how to prioritize upgrades, and how to time your prestige and skill points so you can break through the toughest levels without wasting cash.",
-    "guidesTitle": "Boss Guides",
-    "readMore": "Read more",
-    "new": "New",
-    "popular": "Popular"
-  },
+  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
