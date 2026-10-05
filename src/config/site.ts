@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Balls, Upgrades, Prestige & Strategy Guides",
   description: "Explore the Idle Breakout Wiki for ball types, upgrades, prestige, bosses, skills, strategies, and beginner tips to progress faster in the classic idle brick-breaking game.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://idle-breakout.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://idle-breakout.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@idle-breakout.top",
   gameUrl: "https://www.kongregate.com/en/games/kodiqi/idle-breakout",
   heroVideoId: "lnvTYJUlluY", // Idle Breakout strategy & gameplay showcase
   social: {},
